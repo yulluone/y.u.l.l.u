@@ -4,7 +4,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/ElegantStack/edgefolio.git"
+    "url": "https://github.com/joshuamwo/y.u.l.l.u.git"
   },
   "engines": {
     "node": ">=14.0"
