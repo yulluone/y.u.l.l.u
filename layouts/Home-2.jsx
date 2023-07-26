@@ -38,7 +38,7 @@ const HeroPhoto = ({ main }) => (
 const HeroAbout = ({ main }) => (
   <Reveal
     animation="fade-in slide-in-right"
-    className={classNames(
+    className={  classNames(
       'prose prose-invert prose-headings:my-4 first-of-type:prose-headings:mt-0 prose-p:hidden',
       'prose-headings:my-6 prose-pre:max-w-[100vw] md:prose-p:block md:prose-pre:max-w-lg'
     )}
@@ -74,7 +74,7 @@ const Layout = ({ main = {}, cta = {}, achievements = [], companies }) => (
       </div>
     </div>
     <div className="relative z-10">
-      <Sep line className="hidden md:block" />
+      <Sep line className="hidden md:block " />
       <div
         className={classNames(
           'md:bg-gradient-omega-900 flex flex-wrap items-center justify-between',

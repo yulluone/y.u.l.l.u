@@ -2,7 +2,7 @@
 layout: About
 seo:
   title: About Me
-  description: Lets dig deeper into who is Joshua Yullu
+  description: Discover the story and expertise of Joshua Yullu, the Brand Strategist and Software Developer passionate about helping businesses succeed and creating impactful web experiences.
 ---
 
 
@@ -15,15 +15,25 @@ images:
 ---
 ##### <span>01.</span> About me
 
-I'm a skilled software engineer with experience in TypeScript, Javascript and Python, and expertise in frameworks like React, Vue, Node.js, NextJs, and Nuxt. I'm a quick learner and I collaborate closely with clients to create efficient, scalable, and user friendly solutions that solve real-world problems. Let's work together to bring your ideas to reality!
+Nice to meet you! I'm Joshua Yullu, a passionate Brand Strategist and Software Developer specializing in Marketing User Experiences and Full-Stack Development. With a keen eye for detail and a love for bringing ideas to life, I thrive on creating captivating and functional web experiences.
 
 ##### <span>02.</span> Interests and Hobbies
 
-I enjoy building exciting and ambitious side projects that I never finish, traveling, discovering and exploring new places. I always have a comic or manga at hand for light reading. I am very competitive at table tennis and my favourite way to spend a sunny afternoon is at the swimming pool.
+Apart from my professional pursuits, I have a myriad of interests and hobbies that keep me energized and inspired. One of my favorite pastimes is building exciting and ambitious side projects that allow me to experiment with new technologies and push the boundaries of my skills. While not all of them see the light of day, the process of creation is incredibly fulfilling.
+Traveling is another passion of mine. Exploring new places and experiencing different cultures broadens my perspective and fuels my creativity. Whenever I get the chance, I embark on adventures to discover the beauty our world has to offer.
+
+I also have a soft spot for light reading, particularly comics and manga. There's something uniquely captivating about the artistry and storytelling in these mediums, and they provide me with a refreshing escape during my downtime.
+
+To stay active and competitive, I love playing table tennis. It's a sport that keeps me on my toes and brings out my determination to improve and succeed.
+
+When the sun is shining, you'll likely find me at the swimming pool, where I can relax and soak in the warmth of the day.
 
 ##### <span>03.</span> Framework Preferences
 
-I am always trying out new frameworks and web technologies as they are released and updated but I find that I always go back to Next.js. React was my first love and nothing beats that first love. 
+Throughout my journey as a developer, I've experimented with various frameworks and web technologies. However, no matter how many new options arise, my heart always brings me back to Next.js. React was my first love, and the seamless experience and versatility that Next.js provides keep me loyal to this framework.
+Building with Next.js allows me to create high-performance websites and applications, striking a perfect balance between developer-friendly features and excellent user experiences. Its server-side rendering capabilities and ease of deployment make it my go-to choice for a wide range of projects.
+
+Let's collaborate and turn your ideas into reality with my expertise in Front-End and Back-End Development. Together, we can build something remarkable that leaves a lasting impact on your audience!
 
 
 
@@ -42,36 +52,28 @@ Let's super-charge your business today!
 ---skills_header
 title: I Specialise in
 list:
-  - Front-End Design
-  - Back-End Development
-  - Modern Frameworks
+  - Branding and Marketing Strategy
+  - Interactive User Experience
+  - Full-Stack Development
 ---
 
 
 
 ---skills[0]
-title: Back-End Development
+title: Branding and Marketing Strategy
 list:
-  - title: Node.js
-    level: 3
+  - title: SEO
+    level: 5
     icon:
       src: /icons/nodedotjs.svg
-  - title: Express
-    level: 3
+  - title: Content
+    level: 5
     icon:
       src: /icons/prisma.svg
-  - title: MongoDB
-    level: 3
+  - title: Social-Media
+    level: 5
     icon:
       src: /icons/svelte.svg
-  - title: Vercel
-    level: 2
-    icon:
-      src: /icons/html5.svg
-  - title: AWS
-    level: 2
-    icon:
-      src: /icons/solidity.svg
 ---
 
 
@@ -80,32 +82,40 @@ list:
 ########################################
 ### Skills
 ########################################
-title: Front-End UI/UX Design
+title: Interactive User Experience
 list:
-  - title: JavaScript
-    level: 4
+  - title: Speed
+    level: 5
     icon:
       src: /icons/javascript.svg
-  - title: React
-    level: 3
+  - title: Reactive
+    level: 5
     icon:
       src: /icons/react.svg
-  - title: Vue
-    level: 2
+  - title: Accessability
+    level: 5
     icon:
       src: /icons/redux.svg
-  - title: TailwindCSS
-    level: 3
+---
+
+---skills[2]
+########################################
+### Skills
+########################################
+title: Full-Stack Development
+list:
+  - title: FrontEnd
+    level: 5
     icon:
-      src: /icons/graphql.svg
-  - title: Next.js
-    level: 3
+      src: /icons/javascript.svg
+  - title: BackEnd
+    level: 5
     icon:
-      src: /icons/nodedotjs.svg
-  - title: Wordpress
-    level: 4
+      src: /icons/react.svg
+  - title: DevOps&API
+    level: 5
     icon:
-      src: /icons/prisma.svg
+      src: /icons/redux.svg
 ---
 
 
@@ -113,8 +123,8 @@ list:
 ---history[0]
 title: Employment
 list:
-  - name: Natural World Safaris.
-    description: Software Engineer & Tech Support
+  - name: Natural World Safaris Kenya.
+    description: IT & MARKETING EXPERT
     date: July, 2023-Present
   - name: WeDance
     description: FullStack Developer

@@ -1,7 +1,7 @@
 ---
 layout: Home-2
 seo:
-  title: Web Developer
+  title: Branding Strategist, Software Develover and Marketing Expert
   description: Introduction to who I am and what I do
 ---
 
@@ -19,15 +19,15 @@ images:
 
 # *You Dream* <span>-</span> *I Build*
 
-Hi! Welcome to your one stop shop for custom web solutions.
-From me you get a stunning and efficient website built to empower your brand.
-Lets bring your dreams to reality.
+Hi, I am a Brand Strategist and a Software Developer passionate about
+helping businesses and brands take envisioned shape and expand the right reach.
+I love bulding for the Web.
 
 ```js {2-4} showLineNumbers
 const services = [
-  'UI/UX Design'
+  'Branding Strategy'
   'Web Development'
-  'API Development'
+  'Digital Marketing'
 ]
 if (have_a_project) navigate('/contact')
 ```
@@ -51,21 +51,3 @@ if (have_a_project) navigate('/contact')
 
 [Get in Touch](/contact)
 
-
-
----companies
-title:
-list:
-  - name: Company 1
-    icon:
-      src: /icons/logo-1.svg
-  - name: Company 2
-    icon:
-      src: /icons/logo-3.svg
-  - name: Company 3
-    icon:
-      src: /icons/logo-3.svg
-  - name: Company 4
-    icon:
-      src: /icons/logo-4.svg
----
