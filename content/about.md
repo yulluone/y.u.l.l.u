@@ -52,9 +52,9 @@ Let's super-charge your business today!
 ---skills_header
 title: I Specialise in
 list:
-  - Branding and Marketing Strategy
-  - Interactive User Experience
-  - Full-Stack Development
+  - Branding & Marketing
+  - User Experience
+  - Development
 ---
 
 
@@ -62,18 +62,18 @@ list:
 ---skills[0]
 title: Branding and Marketing Strategy
 list:
-  - title: SEO
+  - title: SEO & Traffic
     level: 5
     icon:
-      src: /icons/nodedotjs.svg
-  - title: Content
+      src: 
+  - title: Content Creation
     level: 5
     icon:
-      src: /icons/prisma.svg
-  - title: Social-Media
+      src: 
+  - title: Social Strategy
     level: 5
     icon:
-      src: /icons/svelte.svg
+      src: 
 ---
 
 
@@ -87,15 +87,15 @@ list:
   - title: Speed
     level: 5
     icon:
-      src: /icons/javascript.svg
-  - title: Reactive
+      src: 
+  - title: Responsiveness
     level: 5
     icon:
-      src: /icons/react.svg
-  - title: Accessability
+      src: 
+  - title: Accessibility
     level: 5
     icon:
-      src: /icons/redux.svg
+      src: 
 ---
 
 ---skills[2]
@@ -104,18 +104,18 @@ list:
 ########################################
 title: Full-Stack Development
 list:
-  - title: FrontEnd
+  - title: User Interface
     level: 5
     icon:
-      src: /icons/javascript.svg
-  - title: BackEnd
+      src: 
+  - title: Application Logic
     level: 5
     icon:
-      src: /icons/react.svg
-  - title: DevOps&API
+      src: 
+  - title: DevOps & APIs
     level: 5
     icon:
-      src: /icons/redux.svg
+      src: 
 ---
 
 
@@ -133,6 +133,8 @@ list:
     description: React Developer & Tech Support
     date: 2021
 ---
+
+
 
 
 
