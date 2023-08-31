@@ -3,10 +3,15 @@
  * will be treated as an API endpoint instead of a page.        *
  ****************************************************************/
 
-import sendgrid from '@sendgrid/mail'
+import emailjs from "@emailjs/browser";
 import { config } from '../../theme.config'
 
-sendgrid.setApiKey(process.env.SENDGRID_API_KEY)
+
+ const templateId = process.env.EMAILJS_TEMPLATE_ID;
+ const publicKey = process.env.EMAILJS_PUBLIC_KEY;
+	const serviceId = process.env.EMAILJS_SERVICE_ID;
+	
+
 
 const contact = async (req, res) => {
   const { email } = req.body
@@ -50,16 +55,17 @@ const contact = async (req, res) => {
   let html = getHtmlBody(req.body)
   if (Array.isArray(html)) {
     html = html.join('<br />')
-  }
+	}
+	
+	let templateParams = {
+		from: email,
+		to: recipient,
+		subject: subject,
+		message_html: html
+	}
 
   try {
-    await sendgrid.send({
-      to: recipient, // Your email where you'll receive emails
-      from: recipient, // your website email address here
-      replyTo: email,
-      subject: req.body.subject || subject || 'Contact form entry',
-      html,
-    })
+   await emailjs.send("service_rjw3vcl", "template_401mfhj", templateParams, "b0kPS9olcVw_AvKtI")
   } catch (error) {
     return res.status(error.statusCode || 500).json({ error: error.message })
   }

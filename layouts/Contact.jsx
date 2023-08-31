@@ -11,6 +11,14 @@ import FormRadio from '@/components/FormRadio'
 import Button from '@/components/Button'
 import { SlCheck } from 'react-icons/sl'
 import { config } from '../theme.config'
+import emailjs from "@emailjs/browser";
+
+
+
+ const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
+ const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
+	const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+	
 
 const { inputs } = config.contactForm || {}
 
@@ -49,23 +57,51 @@ const Contact01 = ({ main = {} }) => {
     clearErrors,
   } = methods
 
-  const onSubmit = async (data) => {
-    try {
-      const res = await fetch(`/api/contact-form`, {
-        method: 'POST',
-        body: JSON.stringify(data),
-        headers: new Headers({
-          'Content-Type': 'application/json',
-          credentials: 'same-origin',
-        }),
-      })
-      if (res.status === 201) {
-        return true
+	const onSubmit = async (data) => {
+
+		  const getHtmlBody = (data) => {
+    return Object.entries(data).map(([key, value]) => {
+      if (typeof value === 'string') {
+        return `<b>${key}</b>: ${value}`
       }
-      const json = await res.json()
-      if (json.error) {
-        throw json.error
+      if (typeof value === 'boolean') {
+        return value === true ? key : false
       }
+      if (typeof value === 'object') {
+        return `<b>${key}</b>: ${getHtmlBody(value)?.filter(Boolean).join(', ')}`
+      }
+      return html
+    })
+  }
+
+  let html = getHtmlBody(data)
+  if (Array.isArray(html)) {
+    html = html.join('<br />')
+	}
+
+		let templateParams = {
+			subject: "Message from Portfolio",
+			firstName: data["first-name"],
+			lastName: data["last-name"],
+			phone:	data.phone,
+			email: data.email,
+		message_html: html
+		}
+				console.log(JSON.stringify(data))
+			try {
+					await emailjs.send(serviceId, templateId, templateParams, publicKey)
+    .then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+    }, function(error) {
+       console.log('FAILED...', error);
+    });
+      // if (res.status === 201) {
+      //   return true
+      // }
+      // const json = await res.json()
+      // if (json.error) {
+      //   throw json.error
+      // }
     } catch (error) {
       setError('service', { type: 'serviceSideError', message: error })
     }
