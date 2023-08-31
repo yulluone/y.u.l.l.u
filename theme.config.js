@@ -49,11 +49,11 @@ export const menu = [
     slug: '/services',
     Icon: SlBriefcase,
   },
-  {
-    name: 'Articles',
-    slug: '/blog',
-    Icon: TfiPencilAlt,
-  },
+  // {
+  //   name: 'Articles',
+  //   slug: '/blog',
+  //   Icon: TfiPencilAlt,
+  // },
   {
     name: 'Projects',
     slug: '/projects',
@@ -106,9 +106,9 @@ export const config = {
   },
   contactForm: {
     inputs: require('./content/contact-form.json'),
-    recipient: 'RECIPIENT@EXAMPLE.com',
-    sender: 'SENDER@EXAMPLE.com',
-    subject: 'EMAIL NOTIFICATION SUBJECT',
+    recipient: 'yulluone@outlook.com',
+    sender: 'muuoyullu@gmail.com',
+    subject: 'EMAIL NOTIFICATION FROM WEBSITE',
   },
 }
 
