@@ -25,11 +25,13 @@ I love bulding for the Web.
 
 ```js {2-4} showLineNumbers
 const services = [
-  'Branding Strategy'
   'Web Development'
+  'Branding Strategy'
   'Digital Marketing'
 ]
-if (have_a_project) navigate('/contact')
+if (you_have_a_project) {
+   navigate('/contact')
+}
 ```
 
 
