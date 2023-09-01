@@ -2,7 +2,7 @@
 layout: Post
 title: 5 Easy Ways to Boost Your Team Performance Immediately
 description: Unlock the Potential of Your Development Team with NextJs! 🚀 Discover 5 Proven Ways to Skyrocket Performance and Productivity. From streamlined development to enhanced SEO, NextJs has the tools your team needs. Read on to stay ahead of the competition! #WebDevelopment #NextJs #TeamPerformance
-date: '2022-09-05'
+date: '2023-06-05'
 tags:
   - next-js
   - javascript
