@@ -244,6 +244,7 @@
     ]
   },
   {
+			"required": true,
     "legend": "What services do you need for your project?",
     "columns": 3,
     "fields": [

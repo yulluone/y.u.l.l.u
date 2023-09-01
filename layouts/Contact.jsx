@@ -58,26 +58,11 @@ const Contact01 = ({ main = {} }) => {
   } = methods
 
 	const onSubmit = async (data) => {
-
-		  const getHtmlBody = (data) => {
-    return Object.entries(data).map(([key, value]) => {
-      if (typeof value === 'string') {
-        return `<b>${key}</b>: ${value}`
-      }
-      if (typeof value === 'boolean') {
-        return value === true ? key : false
-      }
-      if (typeof value === 'object') {
-        return `<b>${key}</b>: ${getHtmlBody(value)?.filter(Boolean).join(', ')}`
-      }
-      return html
-    })
+		if (!data.email) {
+    return res
+      .status(400)
+      .json({ error: 'Missing email address. Please provide a correct email address.' })
   }
-
-  let html = getHtmlBody(data)
-  if (Array.isArray(html)) {
-    html = html.join('<br />')
-	}
 
 		let templateParams = {
 			subject: "Message from Portfolio",
@@ -85,16 +70,11 @@ const Contact01 = ({ main = {} }) => {
 			lastName: data["last-name"],
 			phone:	data.phone,
 			email: data.email,
-		message_html: html
+		message_html: data
 		}
 				console.log(JSON.stringify(data))
 			try {
 					await emailjs.send(serviceId, templateId, templateParams, publicKey)
-    .then(function(response) {
-       console.log('SUCCESS!', response.status, response.text);
-    }, function(error) {
-       console.log('FAILED...', error);
-    });
       // if (res.status === 201) {
       //   return true
       // }
@@ -145,7 +125,7 @@ const Contact01 = ({ main = {} }) => {
                         {fields.map((input, j) => {
                           const Component = FormComponent[input.type]
                           return input.type && Component ? (
-                            <div key={(input.id || input.name) + j} className="flex items-center">
+                            <div key={(input.id || input.name) + j} className="flex items-center" required>
                               <Component {...input} {...register(input.id || input.name)} />
                             </div>
                           ) : null

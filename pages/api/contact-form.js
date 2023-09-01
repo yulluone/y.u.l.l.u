@@ -58,7 +58,7 @@ const contact = async (req, res) => {
 	}
 	
 	let templateParams = {
-		from: email,
+		from: email, 
 		to: recipient,
 		subject: subject,
 		message_html: html
