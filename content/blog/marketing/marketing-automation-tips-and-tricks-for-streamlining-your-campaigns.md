@@ -2,7 +2,7 @@
 layout: Post
 title: Marketing Automation - Tips and Tricks for Streamlining Your Campaigns
 description: Unlock the true potential of your marketing campaigns with these expert tips on automation! Learn how to streamline your efforts, engage your audience, and boost conversions. From personalized email campaigns to social media scheduling, this guide has it all. Dive in and revolutionize your marketing strategy today!
-date: '2023-11-21'
+date: '2023-07-08'
 tags:
   - marketing
 images:
