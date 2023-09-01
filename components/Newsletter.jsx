@@ -126,7 +126,7 @@ const Newsletter = ({ className }) => {
           </Button>
         </form>
       )}
-      <Badge />
+      {/* <Badge /> */}
     </div>
   )
 }
