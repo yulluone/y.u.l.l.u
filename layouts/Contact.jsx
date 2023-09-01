@@ -59,9 +59,7 @@ const Contact01 = ({ main = {} }) => {
 
 	const onSubmit = async (data) => {
 		if (!data.email) {
-    return res
-      .status(400)
-      .json({ error: 'Missing email address. Please provide a correct email address.' })
+    return { error: 'Missing email address. Please provide a correct email address.' }
   }
 
 		let templateParams = {
