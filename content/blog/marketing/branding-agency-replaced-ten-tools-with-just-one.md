@@ -2,7 +2,7 @@
 layout: Post
 title: Branding Agency Replaced Ten Tools With Just One
 description: In the ever-evolving world of branding, a seismic shift has occurred. A branding agency, burdened by a tangle of ten separate tools, has found its savior; a single, all-encompassing solution. Join us on this transformative journey as they trade chaos for cohesion, inefficiency for effectiveness, and complexity for simplicity. Welcome to the future of branding, where one tool reigns supreme.
-date: '2022-09-05'
+date: '2023-08-20'
 tags:
   - marketing
 images:
