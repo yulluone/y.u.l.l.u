@@ -2,7 +2,7 @@
 layout: Post
 title: How to Leverage the Power of Video for Your Business
 description: Discover the ultimate guide to harnessing the power of video for your business! 🎥🚀 Learn how to create compelling content, optimize for SEO, and engage your audience like never before. Elevate your brand with the art of video marketing. Read now!
-date: '2022-11-21'
+date: '2023-07-30'
 tags:
   - marketing
 images:
