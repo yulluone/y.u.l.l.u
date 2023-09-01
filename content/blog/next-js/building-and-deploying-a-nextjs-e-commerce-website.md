@@ -2,7 +2,7 @@
 layout: Post
 title: Building and Deploying a Next.js E-commerce Website
 description: Unlock the Secrets to Crafting a High-Performance E-commerce Website with Next.js! 🚀 Dive into our comprehensive tutorial that guides you through every step of building and deploying a visually stunning and SEO-optimized online store. From setting up your project to integrating payment gateways and implementing SEO best practices, this guide has you covered. Stay ahead in the competitive world of online retail with Next.js's power. Read now!
-date: '2022-09-05'
+date: '2023-06-18'
 tags:
   - next-js
 images:
