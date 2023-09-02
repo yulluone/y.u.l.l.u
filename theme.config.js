@@ -20,7 +20,19 @@ export const menu = [
     slug: '/',
     Icon: TfiHome,
     number: '',
+	},
+	 {
+    name: 'Services',
+    slug: '/services',
+    Icon: SlBriefcase,
   },
+	
+		  {
+    name: 'Projects',
+    slug: '/projects',
+    Icon: SlTrophy,
+  },
+
   // {
   //   name: 'Home (2)',
   //   slug: '/index-2',
@@ -43,23 +55,13 @@ export const menu = [
     name: 'About',
     slug: '/about',
     Icon: SlUser,
-  },
-  {
-    name: 'Services',
-    slug: '/services',
-    Icon: SlBriefcase,
-  },
+	},
   {
     name: 'Articles',
     slug: '/blog',
     Icon: TfiPencilAlt,
-  },
-  {
-    name: 'Projects',
-    slug: '/projects',
-    Icon: SlTrophy,
-  },
-  {
+	},
+		  {
     name: 'Contact',
     slug: '/contact',
     Icon: SlEnvolope,
