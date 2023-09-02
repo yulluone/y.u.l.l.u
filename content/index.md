@@ -51,5 +51,5 @@ if (you_have_a_project) {
   Get in Touch
 </Button>
 
-[Keep Exploring](/about)
+[Services Offered](/services)
 
