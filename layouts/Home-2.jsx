@@ -18,7 +18,7 @@ const HeroPhoto = ({ main }) => (
           animation="slide-in-top fade-in"
           priority
         />
-      </div>  
+      </div>    
     )}
     {main.images?.[1] && (
       <div className="md:hidden">
