@@ -3,6 +3,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 })
 
 module.exports = withBundleAnalyzer({
+	distDir: 'build',
   images: {
     deviceSizes: [428, 540, 640, 768, 1024, 1120],
   },
