@@ -8,7 +8,7 @@ tags:
   - firebase
   - API
 logo:
-  src: 
+  src:
   alt: MyExporsitor
 images:
   - src: /projects/netflix-rebuild-landing.png
@@ -21,7 +21,7 @@ images:
   - src: /projects/netflix-rebuild-trailer.png
     alt: netflix rebuild trailer showcase
   - src: /projects/airbnb-search.png
-    alt: airbnb rebuild search 
+    alt: airbnb rebuild search
   - src: /projects/airbnb-explore.png
     alt: airbnb rebuild explore nearby page
 attributes:

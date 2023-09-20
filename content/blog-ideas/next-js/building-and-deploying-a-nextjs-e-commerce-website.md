@@ -10,7 +10,7 @@ images:
     alt: image alt attribute
 ---
 
-## Building and Deploying a Next.js E-commerce Website: A Comprehensive 
+## Building and Deploying a Next.js E-commerce Website: A Comprehensive
 
 In today's fast-paced digital landscape, establishing a robust online presence is essential for businesses to thrive. E-commerce websites have become a cornerstone of modern retail, allowing companies to reach a global audience and offer their products or services 24/7. If you're looking to create a powerful and visually appealing e-commerce platform, Next.js presents an excellent choice due to its versatility, performance, and SEO-friendliness.
 

@@ -5,14 +5,15 @@ seo:
   description: Discover the story and expertise of Joshua Yullu, the Brand Strategist and Software Developer passionate about helping businesses succeed and creating impactful web experiences.
 ---
 
-
-
 ---personal_info
 name: JOSHUA YULLU
 images:
-  - src: /about.jpg
-    alt: my image
+
+- src: /about.jpg
+  alt: my image
+
 ---
+
 ##### <span>01.</span> About me
 
 Nice to meet you! I'm Joshua Yullu, a passionate Brand Strategist and Software Developer specializing in Marketing User Experiences and Full-Stack Development. With a keen eye for detail and a love for bringing ideas to life, I thrive on creating captivating and functional web experiences.
@@ -35,10 +36,8 @@ Building with Next.js allows me to create high-performance websites and applicat
 
 Let's collaborate and turn your ideas into reality with my expertise in Front-End and Back-End Development. Together, we can build something remarkable that leaves a lasting impact on your audience!
 
+## ---cta
 
-
----cta
----
 ## Ready to discuss your project?
 
 Let's super-charge your business today!
@@ -47,101 +46,105 @@ Let's super-charge your business today!
   Get a Free Price Quote
 </Button>
 
-
-
 ---skills_header
 title: I Specialise in
 list:
-  - Branding & Marketing
-  - User Experience
-  - Development
+
+- Branding & Marketing
+- User Experience
+- Development
+
 ---
-
-
 
 ---skills[0]
 title: Branding and Marketing Strategy
 list:
-  - title: SEO & Traffic
-    level: 5
-    icon:
-      src: 
-  - title: Content Creation
-    level: 5
-    icon:
-      src: 
-  - title: Social Strategy
-    level: 5
-    icon:
-      src: 
+
+- title: SEO & Traffic
+  level: 5
+  icon:
+  src:
+- title: Content Creation
+  level: 5
+  icon:
+  src:
+- title: Social Strategy
+  level: 5
+  icon:
+  src:
+
 ---
-
-
 
 ---skills[1]
 ########################################
+
 ### Skills
+
 ########################################
 title: Interactive User Experience
 list:
-  - title: Speed
-    level: 5
-    icon:
-      src: 
-  - title: Responsiveness
-    level: 5
-    icon:
-      src: 
-  - title: Accessibility
-    level: 5
-    icon:
-      src: 
+
+- title: Speed
+  level: 5
+  icon:
+  src:
+- title: Responsiveness
+  level: 5
+  icon:
+  src:
+- title: Accessibility
+  level: 5
+  icon:
+  src:
+
 ---
 
 ---skills[2]
 ########################################
+
 ### Skills
+
 ########################################
 title: Full-Stack Development
 list:
-  - title: User Interface
-    level: 5
-    icon:
-      src: 
-  - title: Application Logic
-    level: 5
-    icon:
-      src: 
-  - title: DevOps & APIs
-    level: 5
-    icon:
-      src: 
+
+- title: User Interface
+  level: 5
+  icon:
+  src:
+- title: Application Logic
+  level: 5
+  icon:
+  src:
+- title: DevOps & APIs
+  level: 5
+  icon:
+  src:
+
 ---
-
-
 
 ---history[0]
 title: Employment
 list:
-  - name: Natural World Safaris Kenya.
-    description: IT & MARKETING EXPERT
-    date: July, 2023-Present
-  - name: WeDance
-    description: FullStack Developer
-    date: 2021-2023
-  - name: Ministry Of Education.
-    description: React Developer & Tech Support
-    date: 2021
+
+- name: Natural World Safaris Kenya.
+  description: IT & MARKETING EXPERT
+  date: July, 2023-Present
+- name: WeDance
+  description: FullStack Developer
+  date: 2021-2023
+- name: Ministry Of Education.
+  description: React Developer & Tech Support
+  date: 2021
+
 ---
-
-
-
-
 
 ---history[1]
 title: Education
 list:
-  - name: Egerton University
-    description: BSc (Computer Science)
-    date: 2017-2021
+
+- name: Egerton University
+  description: BSc (Computer Science)
+  date: 2017-2021
+
 ---

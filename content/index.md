@@ -5,19 +5,19 @@ SEO:
   description: Introduction to who I am and what I do
 ---
 
-
-
 ---main
 images:
-  - src: /hero-2.png
-    alt: my photo
-  - src: /hero-mobile.jpg
-    alt: my photo
+
+- src: /hero-2.png
+  alt: my photo
+- src: /hero-mobile.jpg
+  alt: my photo
+
 ---
 
 # <Typewriter>Joshua Yullu</Typewriter>
 
-# *You Dream* <span>-</span> *I Build*
+# _You Dream_ <span>-</span> _I Build_
 
 Hi, I am a Software Developer passionate about
 helping businesses and brands take envisioned shape and expand the right reach.
@@ -34,22 +34,19 @@ if (you_have_a_project) {
 }
 ```
 
-
-
 ---achievements
+
 - number: 30+
   text: Projects Completed
 - number: 20+
   text: Clients World Wide
+
 ---
 
+## ---cta
 
-
----cta
----
 <Button href="/contact" size="sm">
   Get in Touch
 </Button>
 
 [Services Offered](/services)
-

@@ -204,9 +204,9 @@ var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([reac
 
 
 
-const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
-const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
-const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+const templateId = "template_401mfhj";
+const publicKey = "b0kPS9olcVw_AvKtI";
+const serviceId = "service_rjw3vcl";
 const { inputs  } = _theme_config__WEBPACK_IMPORTED_MODULE_13__/* .config.contactForm */ .vc.contactForm || {};
 const FormComponent = {
     text: _components_FormInput__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z,

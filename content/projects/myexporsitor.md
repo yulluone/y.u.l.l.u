@@ -8,7 +8,7 @@ tags:
   - vercel
   - react
 logo:
-  src: 
+  src:
   alt: MyExporsitor
 images:
   - src: /projects/myexporsitor.png
