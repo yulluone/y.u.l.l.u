@@ -1,6 +1,6 @@
 ---
 layout: Post
-title: MyExporsitor. The number 1 Bible Study Bible
+title: MyExpositor. The number 1 Bible Study Bible
 description: Embark on a transformative journey through the sacred texts with MyExpositor, the ultimate Bible study tool. Dive deep into the wisdom and teachings of the Bible like never before. Whether you're a seasoned scholar or taking your first steps into biblical exploration, MyExpositor is designed to enrich your spiritual understanding and guide you on a profound quest for knowledge.
 date: '2022-11-21'
 tags:
@@ -9,7 +9,7 @@ tags:
   - react
 logo:
   src: 
-  alt: MyExporsitor
+  alt: MyExpositor
 images:
   - src: /projects/myexporsitor.png
     alt: my exporsitor landscape
@@ -29,9 +29,9 @@ attributes:
     value: Solo Developer
 ---
 
-# MyExporsitor - #1 Bible Study Bible 📖✨
+# MyExpositor - #1 Bible Study Bible 📖✨ [View Project](https://myexpositor.vercel.app)
 
-Discover the ultimate Bible study experience with MyExporsitor! Your go-to resource for exploring the sacred scriptures just got a digital upgrade. We've transformed the renowned Jimmy Swaggart's Expositor's Bible into an immersive website, bringing you a powerful tool for diving deep into the Word.
+Discover the ultimate Bible study experience with MyExpositor! Your go-to resource for exploring the sacred scriptures just got a digital upgrade. We've transformed the renowned Jimmy Swaggart's Expositor's Bible into an immersive website, bringing you a powerful tool for diving deep into the Word.
 
 🔍 **Easy Navigation**: Navigate through the Bible seamlessly with our intuitive alphabetical dropdown menu. Quickly find the books you're looking for, enhancing your study efficiency.
 
@@ -39,6 +39,6 @@ Discover the ultimate Bible study experience with MyExporsitor! Your go-to resou
 
 📚 **Expositions On-Demand**: Toggle expositions on and off according to your preference. Engage with in-depth commentary and insights for a comprehensive study experience, or switch to the classic KJV Bible for a more traditional approach.
 
-MyExporsitor is designed to empower your spiritual journey by offering a versatile platform that adapts to your study style. Immerse yourself in the wisdom, guidance, and inspiration of the Bible like never before. Embark on your exploration of faith today!
+MyExpositor is designed to empower your spiritual journey by offering a versatile platform that adapts to your study style. Immerse yourself in the wisdom, guidance, and inspiration of the Bible like never before. Embark on your exploration of faith today!
 
-Visit [MyExporsitor](https://myexporsitor.vercel.app) and embark on your journey of discovery. 🌟🙏
+Visit [MyExporsitor](https://myexpositor.vercel.app) and embark on your journey of discovery. 🌟🙏
