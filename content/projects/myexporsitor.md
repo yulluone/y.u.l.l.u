@@ -29,7 +29,9 @@ attributes:
     value: Solo Developer
 ---
 
-# MyExpositor - #1 Bible Study Bible 📖✨ [View Project](https://myexpositor.vercel.app)
+# MyExpositor - #1 Bible Study Bible 📖✨ 
+
+[View Live Project](https://myexpositor.vercel.app)
 
 Discover the ultimate Bible study experience with MyExpositor! Your go-to resource for exploring the sacred scriptures just got a digital upgrade. We've transformed the renowned Jimmy Swaggart's Expositor's Bible into an immersive website, bringing you a powerful tool for diving deep into the Word.
 
