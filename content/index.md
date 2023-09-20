@@ -1,7 +1,7 @@
 ---
 layout: Home-2
-seo:
-  title: Branding Strategist, Software Develover and Marketing Expert
+SEO:
+  title: Branding Strategist, Software Developer and Marketing Expert
   description: Introduction to who I am and what I do
 ---
 
@@ -19,18 +19,18 @@ images:
 
 # *You Dream* <span>-</span> *I Build*
 
-Hi, I am a Brand Strategist and a Software Developer passionate about
+Hi, I am a Software Developer passionate about
 helping businesses and brands take envisioned shape and expand the right reach.
-I love bulding for the Web.
+I love building for the Web.
 
 ```js {2-4} showLineNumbers
 const services = [
-  'Web Development'
-  'Branding Strategy'
+  'Web Development',
+  'Branding Strategy',
   'Digital Marketing'
 ]
 if (you_have_a_project) {
-   navigate('/contact')
+   go to('/contact')
 }
 ```
 
