@@ -136,7 +136,7 @@ exports.modules = {
  * Global SEO configuration for next-seo plugin
  * https://github.com/garmeeh/next-seo
  */ const siteMetaData = {
-    siteUrl: "https://yullu.me/" || 0 || 0,
+    siteUrl: process.env.NEXT_PUBLIC_SITE_URL || process.env.VERCEL_URL || "http://localhost:3000",
     authorName: "Joshua Yullu",
     siteName: "Joshua Yullu",
     defaultTitle: "Joshua Yullu Personal Site",

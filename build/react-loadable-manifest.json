@@ -8,7 +8,7 @@
   "..\\layouts\\Post.jsx -> @/components/SocialShare": {
     "id": 1739,
     "files": [
-      "static/chunks/818.57630b4f269277b7.js",
+      "static/chunks/818.18c91b0d9e9c6272.js",
       "static/chunks/739.2e1e09d2233198e4.js"
     ]
   },
@@ -40,7 +40,7 @@
   "..\\layouts\\index.js -> @/layouts/Contact": {
     "id": 3570,
     "files": [
-      "static/chunks/570.cc92d3557e939edb.js"
+      "static/chunks/570.a785463b785d59ec.js"
     ]
   },
   "..\\layouts\\index.js -> @/layouts/Fallback": {
