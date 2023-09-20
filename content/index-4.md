@@ -7,10 +7,9 @@ seo:
 
 ---main
 slogan: Trusted By Fortune 500 Companies
-
 ---
 
-# _Carl Hanson_
+# *Carl Hanson*
 
 ## <Typewriter>Full-Stack Developer</Typewriter>
 
@@ -24,24 +23,26 @@ their shaven reverences, whether the author, who stands by in
 perplexity at the foot of his epistle, shall to the press or to the
 sponge.
 
+
+
 ---articles
 collection:
-path: /blog
-recordsPerPage: 6
-limit: 6
-sortBy: date
-filterBy:
-featured:
-$eq: true
-
+  path: /blog
+  recordsPerPage: 6
+  limit: 6
+  sortBy: date
+  filterBy:
+    featured:
+      $eq: true
 ---
 
 #### <span>Featured Articles</span>
 
 Featured handcrafted articles about my thoughts and experiments.
 
----achievements
 
+
+---achievements
 - number: 6+
   text: Years of experience
 - number: 60+
@@ -50,30 +51,31 @@ Featured handcrafted articles about my thoughts and experiments.
   text: OpenSource Libraries
 - number: 50+
   text: Happy Customers
-
 ---
 
-## ---cta
 
+
+---cta
+---
 <Button href="/contact" size="sm">
   Download Resume
 </Button>
 
+
+
 ---companies
 title: Trusted By
 list:
-
-- name: Company 1
-  icon:
-  src: /icons/logo-1.svg
-- name: Company 2
-  icon:
-  src: /icons/logo-3.svg
-- name: Company 3
-  icon:
-  src: /icons/logo-3.svg
-- name: Company 4
-  icon:
-  src: /icons/logo-4.svg
-
+  - name: Company 1
+    icon:
+      src: /icons/logo-1.svg
+  - name: Company 2
+    icon:
+      src: /icons/logo-3.svg
+  - name: Company 3
+    icon:
+      src: /icons/logo-3.svg
+  - name: Company 4
+    icon:
+      src: /icons/logo-4.svg
 ---

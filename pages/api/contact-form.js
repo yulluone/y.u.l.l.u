@@ -3,12 +3,15 @@
  * will be treated as an API endpoint instead of a page.        *
  ****************************************************************/
 
-import emailjs from '@emailjs/browser'
+import emailjs from "@emailjs/browser";
 import { config } from '../../theme.config'
 
-const templateId = process.env.EMAILJS_TEMPLATE_ID
-const publicKey = process.env.EMAILJS_PUBLIC_KEY
-const serviceId = process.env.EMAILJS_SERVICE_ID
+
+ const templateId = process.env.EMAILJS_TEMPLATE_ID;
+ const publicKey = process.env.EMAILJS_PUBLIC_KEY;
+	const serviceId = process.env.EMAILJS_SERVICE_ID;
+	
+
 
 const contact = async (req, res) => {
   const { email } = req.body
@@ -52,17 +55,17 @@ const contact = async (req, res) => {
   let html = getHtmlBody(req.body)
   if (Array.isArray(html)) {
     html = html.join('<br />')
-  }
-
-  let templateParams = {
-    from: email,
-    to: recipient,
-    subject: subject,
-    message_html: html,
-  }
+	}
+	
+	let templateParams = {
+		from: email, 
+		to: recipient,
+		subject: subject,
+		message_html: html
+	}
 
   try {
-    await emailjs.send('service_rjw3vcl', 'template_401mfhj', templateParams, 'b0kPS9olcVw_AvKtI')
+   await emailjs.send("service_rjw3vcl", "template_401mfhj", templateParams, "b0kPS9olcVw_AvKtI")
   } catch (error) {
     return res.status(error.statusCode || 500).json({ error: error.message })
   }

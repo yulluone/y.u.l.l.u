@@ -18,7 +18,7 @@ const HeroPhoto = ({ main }) => (
           animation="slide-in-top fade-in"
           priority
         />
-      </div>
+      </div>    
     )}
     {main.images?.[1] && (
       <div className="md:hidden">
@@ -38,7 +38,7 @@ const HeroPhoto = ({ main }) => (
 const HeroAbout = ({ main }) => (
   <Reveal
     animation="fade-in slide-in-right"
-    className={classNames(
+    className={  classNames(
       'prose prose-invert prose-headings:my-4 first-of-type:prose-headings:mt-0 prose-p:hidden',
       'prose-headings:my-6 prose-pre:max-w-[100vw] md:prose-p:block md:prose-pre:max-w-lg'
     )}

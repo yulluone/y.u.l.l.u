@@ -11,11 +11,14 @@ import FormRadio from '@/components/FormRadio'
 import Button from '@/components/Button'
 import { SlCheck } from 'react-icons/sl'
 import { config } from '../theme.config'
-import emailjs from '@emailjs/browser'
+import emailjs from "@emailjs/browser";
 
-const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID
-const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
-const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID
+
+
+ const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
+ const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
+	const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+	
 
 const { inputs } = config.contactForm || {}
 
@@ -54,22 +57,22 @@ const Contact01 = ({ main = {} }) => {
     clearErrors,
   } = methods
 
-  const onSubmit = async (data) => {
-    if (!data.email) {
-      return { error: 'Missing email address. Please provide a correct email address.' }
-    }
+	const onSubmit = async (data) => {
+		if (!data.email) {
+    return { error: 'Missing email address. Please provide a correct email address.' }
+  }
 
-    let templateParams = {
-      subject: 'Message from Portfolio',
-      firstName: data['first-name'],
-      lastName: data['last-name'],
-      phone: data.phone,
-      email: data.email,
-      message_html: data,
-    }
-    console.log(JSON.stringify(data))
-    try {
-      await emailjs.send(serviceId, templateId, templateParams, publicKey)
+		let templateParams = {
+			subject: "Message from Portfolio",
+			firstName: data["first-name"],
+			lastName: data["last-name"],
+			phone:	data.phone,
+			email: data.email,
+		message_html: data
+		}
+				console.log(JSON.stringify(data))
+			try {
+					await emailjs.send(serviceId, templateId, templateParams, publicKey)
       // if (res.status === 201) {
       //   return true
       // }
@@ -120,11 +123,7 @@ const Contact01 = ({ main = {} }) => {
                         {fields.map((input, j) => {
                           const Component = FormComponent[input.type]
                           return input.type && Component ? (
-                            <div
-                              key={(input.id || input.name) + j}
-                              className="flex items-center"
-                              required
-                            >
+                            <div key={(input.id || input.name) + j} className="flex items-center" required>
                               <Component {...input} {...register(input.id || input.name)} />
                             </div>
                           ) : null

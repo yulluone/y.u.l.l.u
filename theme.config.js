@@ -20,14 +20,14 @@ export const menu = [
     slug: '/',
     Icon: TfiHome,
     number: '',
-  },
-  {
+	},
+	 {
     name: 'Services',
     slug: '/services',
     Icon: SlBriefcase,
   },
-
-  {
+	
+		  {
     name: 'Projects',
     slug: '/projects',
     Icon: SlTrophy,
@@ -55,13 +55,13 @@ export const menu = [
     name: 'About',
     slug: '/about',
     Icon: SlUser,
-  },
+	},
   {
     name: 'Articles',
     slug: '/blog',
     Icon: TfiPencilAlt,
-  },
-  {
+	},
+		  {
     name: 'Contact',
     slug: '/contact',
     Icon: SlEnvolope,
