@@ -32,7 +32,8 @@ attributes:
 ---
 
 # Netflix and Airbnb UI Rebuilds: Elevating Frontend Skills. 
-## Preview Links [ [Netflix](https://netflix-clone-743e0.web.app/) | [AirBnB](https://air-bnb-clone-4b0bd.web.app/) ]
+
+Preview Links [ [Netflix](https://netflix-clone-743e0.web.app/) | [AirBnB](https://air-bnb-clone-4b0bd.web.app/) ]
 
 Dive into the world of user interface design with our captivating Netflix and Airbnb UI Rebuilds. Immerse yourself in the art of crafting visually appealing and responsive website interfaces that mirror the iconic designs of these industry giants.
 
