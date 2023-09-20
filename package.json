@@ -15,7 +15,7 @@
     "start": "next start",
     "lint": "next lint",
     "build": "next build",
-				"postbuild": " "
+				"postbuild": "next-sitemap"
 
 
 
