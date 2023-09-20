@@ -16,7 +16,7 @@
     "start": "next start",
     "lint": "next lint",
     "build": "next build",
-    "postbuild": "next-sitemap"
+    
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
