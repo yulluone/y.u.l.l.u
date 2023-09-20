@@ -5,15 +5,13 @@ seo:
   description: What I can do for your brand and business
 ---
 
-
-
----main
----
+## ---main
 
 <PageTitle>
   ### Services
 
-  ### _My Expertise_
+### _My Expertise_
+
 </PageTitle>
 
 ###### Solving problems
@@ -23,7 +21,7 @@ The goal is to enhance your business operations not change them.
 
 ###### What you can expect
 
-- Design Strategy 
+- Design Strategy
 - Web App Design
 - Front-end
 - Back-end Development
@@ -41,12 +39,11 @@ The goal is to enhance your business operations not change them.
   Get Free Price Quote
 </Button>
 
-
-
 ---services[0]
 title: Web App Design
 icon:
-  src: /icons/mobile-app.svg
+src: /icons/mobile-app.svg
+
 ---
 
 <small>
@@ -59,12 +56,11 @@ icon:
 
 </small>
 
-
-
 ---services[1]
 title: Project Strategy & Development
 icon:
-  src: /icons/prisma.svg
+src: /icons/prisma.svg
+
 ---
 
 <small>
@@ -77,12 +73,11 @@ icon:
 
 </small>
 
-
-
 ---services[2]
 title: UI/UX Design & Optimization
 icon:
-  src: /icons/dashboard.svg
+src: /icons/dashboard.svg
+
 ---
 
 <small>
@@ -92,18 +87,18 @@ icon:
     - <strong>User Centric Design</strong>
     - <strong>Minialistic Design</strong>
     - <strong>Thorough Testing</strong>
+
 </small>
-
-
 
 ---services[3]
 title: Application Audit & Debugging
 icon:
-  src: /icons/audit.svg
+src: /icons/audit.svg
+
 ---
 
 <small>
   Test the idea, test the plan, test the code and Test the product. Test, test, test then test some more.
 
-  - <strong>Test driven design and development </strong>
+				- <strong>Test driven design and development </strong>
 </small>

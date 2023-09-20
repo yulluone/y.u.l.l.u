@@ -8,7 +8,7 @@ tags:
   - firebase
   - API
 logo:
-  src: 
+  src:
   alt: MyExporsitor
 images:
   - src: /projects/netflix-rebuild-landing.png
@@ -21,7 +21,7 @@ images:
   - src: /projects/netflix-rebuild-trailer.png
     alt: netflix rebuild trailer showcase
   - src: /projects/airbnb-search.png
-    alt: airbnb rebuild search 
+    alt: airbnb rebuild search
   - src: /projects/airbnb-explore.png
     alt: airbnb rebuild explore nearby page
 attributes:
@@ -31,7 +31,7 @@ attributes:
     value: Solo Developer
 ---
 
-# Netflix and Airbnb UI Rebuilds: Elevating Frontend Skills
+# Netflix and Airbnb UI Rebuilds: Elevating Frontend Skills. View: [Netflix Rebuild](https://netflix-clone-743e0.web.app/) | [AirBnB Rebuild](https://air-bnb-clone-4b0bd.web.app/)
 
 Dive into the world of user interface design with our captivating Netflix and Airbnb UI Rebuilds. Immerse yourself in the art of crafting visually appealing and responsive website interfaces that mirror the iconic designs of these industry giants.
 

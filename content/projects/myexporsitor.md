@@ -8,7 +8,7 @@ tags:
   - vercel
   - react
 logo:
-  src: 
+  src:
   alt: MyExporsitor
 images:
   - src: /projects/myexporsitor.png
@@ -29,7 +29,7 @@ attributes:
     value: Solo Developer
 ---
 
-# MyExporsitor - #1 Bible Study Bible 📖✨
+# MyExporsitor - #1 Bible Study Bible 📖✨ [View Project](https://myexpositor.vercel.app)
 
 Discover the ultimate Bible study experience with MyExporsitor! Your go-to resource for exploring the sacred scriptures just got a digital upgrade. We've transformed the renowned Jimmy Swaggart's Expositor's Bible into an immersive website, bringing you a powerful tool for diving deep into the Word.
 
@@ -41,4 +41,4 @@ Discover the ultimate Bible study experience with MyExporsitor! Your go-to resou
 
 MyExporsitor is designed to empower your spiritual journey by offering a versatile platform that adapts to your study style. Immerse yourself in the wisdom, guidance, and inspiration of the Bible like never before. Embark on your exploration of faith today!
 
-Visit [MyExporsitor](https://myexporsitor.vercel.app) and embark on your journey of discovery. 🌟🙏
+Visit [MyExporsitor](https://myexpositor.vercel.app) and embark on your journey of discovery. 🌟🙏
