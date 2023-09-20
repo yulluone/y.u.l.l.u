@@ -1,1 +1,8 @@
-self.__FONT_LOADER_MANIFEST={pages:{"/[[...slug]]":["static/media/2aaf0723e720e8b9.p.woff2"]},app:{}};
+self.__FONT_LOADER_MANIFEST={
+  "pages": {
+    "/[[...slug]]": [
+      "static/media/c9a5bc6a7c948fb0.p.woff2"
+    ]
+  },
+  "app": {}
+}
