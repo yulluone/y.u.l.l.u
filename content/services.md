@@ -25,12 +25,6 @@ Navigating the intricate landscape of modern challenges, I bring a wealth of exp
 - SEO Optimisation
 - Detailed System Documentation
 
-###### Applications I'm fluent in
-
-- Themed Business Websites
-- E-Commerce Web Apps
-- Administration Dashboards
-
 <Sep size="12" />
 
 <Button href="/contact" variant="white" size="sm">
