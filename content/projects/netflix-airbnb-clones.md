@@ -25,10 +25,7 @@ images:
   - src: /projects/airbnb-explore.png
     alt: airbnb rebuild explore nearby page
 attributes:
-  - label: Duration
-    value: 2 Months
-  - label: Role
-    value: Solo Developer
+
 ---
 
 # Netflix and Airbnb UI Rebuilds: Elevating Frontend Skills. 
