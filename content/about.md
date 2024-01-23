@@ -13,28 +13,25 @@ images:
   - src: /about.jpg
     alt: my image
 ---
-##### <span>01.</span> About me
+##### <span>01.</span> My Adventure
 
-Nice to meet you! I'm Joshua Yullu, a passionate Brand Strategist and Software Developer specializing in Marketing User Experiences and Full-Stack Development. With a keen eye for detail and a love for bringing ideas to life, I thrive on creating captivating and functional web experiences.
+From as far back as I can recall, I've been fueled by curiosity. I'm that person who just has to figure out how things tick. Stuff breaks in my hands - I'm always pushing it to the limit, just to see what it can do. I always got in trouble but I've gotten way better at putting things back together, now you'll never know I was there..
 
-##### <span>02.</span> Interests and Hobbies
+##### <span>02.</span> Interests
 
-Apart from my professional pursuits, I have a myriad of interests and hobbies that keep me energized and inspired. One of my favorite pastimes is building exciting and ambitious side projects that allow me to experiment with new technologies and push the boundaries of my skills. While not all of them see the light of day, the process of creation is incredibly fulfilling.
-Traveling is another passion of mine. Exploring new places and experiencing different cultures broadens my perspective and fuels my creativity. Whenever I get the chance, I embark on adventures to discover the beauty our world has to offer.
+1. Visuals -  I think in pictures. Whether it's films, comics, or art, they're like soul food for me.
+3. Problems - A world without problems? Boring! Problems are my morning coffee; they get my blood pumping. I live to solve. The quickest way to my heart is saying, "I've got a problem."
+4. Creation - I adore making things out of thin air, just to admire and think, "Yep, this is good." Classic God's-image stuff.
 
-I also have a soft spot for light reading, particularly comics and manga. There's something uniquely captivating about the artistry and storytelling in these mediums, and they provide me with a refreshing escape during my downtime.
+##### <span>03.</span> Getting into Programming
 
-To stay active and competitive, I love playing table tennis. It's a sport that keeps me on my toes and brings out my determination to improve and succeed.
+It was that `<h1>` tag that hooked me – instant gratification, love at first code. I wrote that "hello world" in HTML, and suddenly, I knew what I wanted to do. My world expanded into infinite possibilities. I could build anything I dreamed of. I was ignited, and ever since, I've been burning bright, solving problems with lines of code.
 
-When the sun is shining, you'll likely find me at the swimming pool, where I can relax and soak in the warmth of the day.
+##### <span>03.</span> The Road Ahead
 
-##### <span>03.</span> Framework Preferences
+Now that I can craft stunning websites like this one, I want to use my skills for good. I aim to tackle everyday problems, one commit at a time. I want to revolutionize education in my country, helping kids discover their passions earlier than I did. I want to assist businesses in growing, competing, thriving. In short, I want to help people.
 
-Throughout my journey as a developer, I've experimented with various frameworks and web technologies. However, no matter how many new options arise, my heart always brings me back to Next.js. React was my first love, and the seamless experience and versatility that Next.js provides keep me loyal to this framework.
-Building with Next.js allows me to create high-performance websites and applications, striking a perfect balance between developer-friendly features and excellent user experiences. Its server-side rendering capabilities and ease of deployment make it my go-to choice for a wide range of projects.
-
-Let's collaborate and turn your ideas into reality with my expertise in Front-End and Back-End Development. Together, we can build something remarkable that leaves a lasting impact on your audience!
-
+> I'm on the lookout for a role in web app development, preferably working with JSX/TSX, JavaScript, or Typescript. I'm especially keen on a fast-paced environment where I can make an impact swiftly. If you're hiring, let's have a chat – it could be the beginning of something awesome!
 
 
 ---cta
@@ -52,25 +49,25 @@ Let's super-charge your business today!
 ---skills_header
 title: I Specialise in
 list:
-  - Branding & Marketing
   - User Experience
-  - Development
+  - System Design & Development
+  - Problem Analysis
 ---
 
 
 
 ---skills[0]
-title: Branding and Marketing Strategy
+title: User Experience
 list:
-  - title: SEO & Traffic
+  - title: Intuitive Design
     level: 5
     icon:
       src: 
-  - title: Content Creation
+  - title: Responsiveness
     level: 5
     icon:
       src: 
-  - title: Social Strategy
+  - title: UI Speed
     level: 5
     icon:
       src: 
@@ -82,37 +79,17 @@ list:
 ########################################
 ### Skills
 ########################################
-title: Interactive User Experience
+title: System Design & Development
 list:
-  - title: Speed
+  - title: Scalability
     level: 5
     icon:
       src: 
-  - title: Responsiveness
+  - title: Reliability
     level: 5
     icon:
       src: 
-  - title: Accessibility
-    level: 5
-    icon:
-      src: 
----
-
----skills[2]
-########################################
-### Skills
-########################################
-title: Full-Stack Development
-list:
-  - title: User Interface
-    level: 5
-    icon:
-      src: 
-  - title: Application Logic
-    level: 5
-    icon:
-      src: 
-  - title: DevOps & APIs
+  - title: Security
     level: 5
     icon:
       src: 
@@ -143,5 +120,5 @@ title: Education
 list:
   - name: Egerton University
     description: BSc (Computer Science)
-    date: 2017-2021
+    date: 2017-2023
 ---
