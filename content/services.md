@@ -16,18 +16,14 @@ seo:
   ### _My Expertise_
 </PageTitle>
 
-###### Solving problems
-
-I build products that are more than pretty. I make them shippable and usable.
-The goal is to enhance your business operations not change them.
+Navigating the intricate landscape of modern challenges, I bring a wealth of expertise to the table.
 
 ###### What you can expect
 
 - Design Strategy 
-- Web App Design
-- Front-end
-- Back-end Development
-- SEO Optimization
+- Web App Development
+- SEO Optimisation
+- Detailed System Documentation
 
 ###### Applications I'm fluent in
 
@@ -44,18 +40,17 @@ The goal is to enhance your business operations not change them.
 
 
 ---services[0]
-title: Web App Design
+title: Web App System Design
 icon:
   src: /icons/mobile-app.svg
 ---
 
 <small>
-  Defining the problem, analyse your business and brand and create design just for you.
+A back and forth process until we arrive at exaclty what you need.
 
-    - <strong>Design Strategy</strong>
-    - <strong>Web App Design</strong>
-    - <strong>Front-end Development</strong>
-    - <strong>Back-end Development</strong>
+    - <strong>Define the problem</strong>
+    - <strong>Analyse your business and brand</strong>
+    - <strong>Design a solution just for you</strong>
 
 </small>
 
@@ -68,12 +63,11 @@ icon:
 ---
 
 <small>
-  Identifying the scope and create a roadmap for the project development and implementation.
-		Its essential to me that this process is smooth and painless.
+Its essential to me that this process is smooth and painless.
 
-    - <strong>Project Planning</strong>
-    - <strong>Constant Communication</strong>
-    - <strong>100% Transparency</strong>
+    - <strong>Identify the scope</strong>
+    - <strong>Create a development roadmap</strong>
+    - <strong>Outline an implentation plan/strong>
 
 </small>
 
@@ -87,11 +81,10 @@ icon:
 
 <small>
    The goal is to make the users feel at home. Everything should feel natural like its where it should be.
-			An experience with nothing to experience.
-
+			
     - <strong>User Centric Design</strong>
-    - <strong>Minialistic Design</strong>
-    - <strong>Thorough Testing</strong>
+    - <strong>Clean Design</strong>
+    - <strong>Real world user testing</strong>
 </small>
 
 
@@ -105,5 +98,5 @@ icon:
 <small>
   Test the idea, test the plan, test the code and Test the product. Test, test, test then test some more.
 
-  - <strong>Test driven design and development </strong>
+  - <strong>The motto is: Let's test it. </strong>
 </small>
