@@ -25,14 +25,7 @@ images:
   - src: /projects/3d-portfolio-skills-mobile.png
     alt: Skills Page on Mobile
 attributes:
-  - label: Duration
-    value: 2 Months
-  - label: Role
-    value: Solo Developer
-  - label: Atmosphere
-    value: Cool
-  - label: Technology
-    value: ThreeFiber
+
 ---
 
 # 3D Portfolio Showcase: Unveiling Creativity in a New Dimension! 🎨🌟 
