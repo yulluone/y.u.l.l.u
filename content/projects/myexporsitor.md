@@ -23,10 +23,7 @@ images:
   - src: /projects/myexporsitor-mobile-menu.png
     alt: my exporsitor mobile menu
 attributes:
-  - label: Duration
-    value: 3 Months
-  - label: Role
-    value: Solo Developer
+
 ---
 
 # MyExpositor - #1 Bible Study Bible 📖✨ 
