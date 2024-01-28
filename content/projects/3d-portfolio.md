@@ -1,7 +1,7 @@
 ---
 layout: Post
 title: 3D Portfolio Website
-description: Step into a realm of boundless creativity with our 3D Portfolio Website! 🎨✨ Immerse yourself in a world where projects come alive in stunning three-dimensional glory. Elevate your portfolio game as you showcase your work in an entirely new dimension, capturing attention with vibrant visuals and interactive exploration. Whether you're an artist, designer, or visionary creator, our 3D platform is your canvas to captivate, inspire, and redefine the way you present your talent. Experience the future of portfolio display today! 🚀🌟
+description: Whether you're an artist, designer, or visionary creator, this 3D portfolio is your canvas to captivate, inspire, and redefine the way you present your talent. Start today! 🚀🌟
 date: '2023-08-26'
 tags:
   - next-js
@@ -9,7 +9,7 @@ tags:
   - TailwindCss
 logo:
   src: 
-  alt: YulluOneTech
+  alt: YulluCO
 images:
   - src: /projects/3d-portfolio-landing.png
     alt: Landing Page

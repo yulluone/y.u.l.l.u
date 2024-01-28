@@ -1,7 +1,7 @@
 ---
 layout: Post
 title: Netflix and Airbnb Rebuilds.
-description: Experience the evolution of design mastery as we bring you the Netflix and Airbnb UI rebuilds. Immerse yourself in the world of user interface design as we meticulously recreate the captivating interfaces of these industry giants. From Netflix's sleek streaming experience to Airbnb's intuitive accommodation hub, our projects showcase the power of responsive design, captivating visuals, and interactive elements. Elevate your frontend skills and explore the art of UI design with our dynamic recreations that pay homage to the best in the business
+description: Responsive design, Captivating visuals, and Interactive elements. UI design with our dynamic recreations that pay homage to the best in the business
 date: '2022-11-21'
 tags:
   - react
@@ -9,7 +9,7 @@ tags:
   - API
 logo:
   src: 
-  alt: MyExporsitor
+  alt: UI Rebuilds
 images:
   - src: /projects/netflix-rebuild-landing.png
     alt: neflix rebuild landing page
