@@ -8,6 +8,7 @@ tags:
 images:
   - src: /photos/blog-images/use-data-to-derive-descisions.jpg
     alt: image alt attribute
+featured: true
 ---
 
 ## How to Use Data to Drive Decisions and Improve Results

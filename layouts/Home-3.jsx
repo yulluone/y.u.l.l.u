@@ -5,7 +5,7 @@ import Image from '@/components/Image'
 import Sep from '@/components/Sep'
 import BlogCardHorizontalMini from '@/components/BlogCardHorizontalMini'
 import Reveal from '@/components/Reveal'
-import Companies from '@/components/Companies'
+import Skills from '@/components/Skills'
 
 const HeroPhoto = ({ main }) =>
   main.images?.[1] && (
@@ -93,7 +93,20 @@ const Articles = ({ articles }) => (
   </>
 )
 
-const Layout = ({ main = {}, articles = {}, cta = {}, achievements = [], companies }) => (
+const Projects = ({ projects }) => (
+  <>
+    <div className="prose prose-invert text-center">
+      <ContentRenderer source={projects} />
+    </div>
+    <div className="mt-8 grid gap-6 md:mt-14 md:gap-4 lg:grid-cols-2">
+      {projects?.collection?.records?.map((record) => (
+        <BlogCardHorizontalMini key={record.slug.join('/')} {...record} />
+      ))}
+    </div>
+  </>
+)
+
+const Layout = ({ main = {}, projects={}, articles = {}, cta = {}, achievements = [], skills }) => (
   <div className="mx-auto my-auto">
     <div className="items-center py-10 md:p-10 lg:p-20">
       <div className="text-center">
@@ -107,13 +120,25 @@ const Layout = ({ main = {}, articles = {}, cta = {}, achievements = [], compani
         </div>
         <div className="hidden md:block">
           <Sep size={24} />
-          <Companies {...companies} />
+					<Skills {...skills} />
+				
         </div>
       </div>
+		</div>
+			<div className="bg-gradient-omega-900 py-10 md:p-10 lg:p-20">
+      <Projects projects={projects} />
     </div>
     <div className="bg-gradient-omega-900 py-10 md:p-10 lg:p-20">
       <Articles articles={articles} />
-    </div>
+		</div>
+		<div className="items-center py-10 md:p-10 lg:p-20">
+			
+		<div className="prose prose-invert text-center">
+          <ContentRenderer source={cta} />
+</div>
+</div>
+
+	
   </div>
 )
 

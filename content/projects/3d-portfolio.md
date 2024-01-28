@@ -24,7 +24,9 @@ images:
     alt: Skills Page
   - src: /projects/3d-portfolio-skills-mobile.png
     alt: Skills Page on Mobile
+featured: true
 attributes:
+	- For Engineers and Creatives
 
 ---
 

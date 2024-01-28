@@ -1,44 +1,36 @@
 ---
-layout: Home-2
-SEO:
+layout: Home-3
+seo:
   title: Software Engineer & Business Solutions Architect
-  description: Introduction to who I am and what I do
+  description: What Joshua Yullu does
 ---
 
-
-
 ---main
+name: Joshua Yullu
 images:
   - src: /hero-2.png
     alt: my photo
-  - src: /hero-mobile.jpg
+  - src: /hero-mobile.png
     alt: my photo
 ---
 
-# <Typewriter>Joshua Yullu</Typewriter>
+## <Typewriter>Software Engineer</Typewriter>
 
-# *You Dream* <span>-</span> *I Build*
+<Sep size={6} />
 
 In a world where the average attention span for an adult is 8.25 seconds, first impressions matter now more than ever. Introduce your business to the world with a custom yulluco website made to capture your audience within seconds of their visit.
-
-```js {2-4} showLineNumbers
-const services = [
-  'Current Systems Analysis',
-  'Business Branding Strategy',
-  'Application Design & Development'
-]
-if (you are ready to take you businees to the next level) {
-   goto('/contact') [Contact Me](/contact)
-}
-```
 
 
 
 ---achievements
-- number: 30+
-  text: Projects Completed
-- number: 20+
-  text: Clients World Wide
+- number: Design
+  text: To Captivate Your Audience
+- number: Custom
+  text: To Your Business Needs
+- number: Built
+  text: With Your Future	In Mind
+- number: Optimised
+  text: To Rank Above Your Competitors
 ---
 
 
@@ -46,8 +38,71 @@ if (you are ready to take you businees to the next level) {
 ---cta
 ---
 <Button href="/contact" size="sm">
-  Get in Touch
+  Hire Me
 </Button>
 
-[Services Offered](/services)
+
+
+---skills
+title: Arsenal
+list:
+  - name: React
+    icon:
+      src: /icons/react.svg
+  - name: VueJs
+    icon:
+      src: /icons/vuejs.svg
+  - name: Typescript
+    icon:
+      src: /icons/typescript.svg
+  - name: NodeJs
+    icon:
+      src: /icons/nodejs.svg
+  - name: Nextjs
+    icon:
+      src: /icons/nextjs.svg
+  - name: MongoDB
+    icon:
+      src: /icons/mongodb.svg
+cta:
+---
+<Button href="/contact" size="sm">
+  Hire Me!
+</Button>
+---
+
+---projects
+collection:
+  path: /projects
+  recordsPerPage: 6
+  limit: 6
+  sortBy: date
+  filterBy:
+    featured:
+      $eq: true
+---
+
+### *Personal Projects*
+
+Featured handcrafted projects that I am passionate about.
+
+---
+
+
+---articles
+collection:
+  path: /blog
+  recordsPerPage: 6
+  limit: 6
+  sortBy: date
+  filterBy:
+    featured:
+      $eq: true
+---
+
+### *Featured Articles*
+
+Featured articles about my thoughts and experiments with technology.
+
+
 

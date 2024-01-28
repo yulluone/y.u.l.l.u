@@ -1,7 +1,7 @@
 ---
 layout: Post
 title: MyExpositor. The number 1 Bible Study Bible
-description: Embark on a transformative journey through the sacred texts with MyExpositor, the ultimate Bible study tool. Dive deep into the wisdom and teachings of the Bible like never before. Whether you're a seasoned scholar or taking your first steps into biblical exploration, MyExpositor is designed to enrich your spiritual understanding and guide you on a profound quest for knowledge.
+description: MyExpositor is designed to enrich your spiritual understanding and guide you on a profound quest for wisdom in God's word.
 date: '2022-11-21'
 tags:
   - next-js
@@ -22,7 +22,9 @@ images:
     alt: my exporsitor mobile landing page
   - src: /projects/myexporsitor-mobile-menu.png
     alt: my exporsitor mobile menu
+featured: true
 attributes:
+	- For those seeking God's heart
 
 ---
 
@@ -30,7 +32,7 @@ attributes:
 
 [View Live Project](https://myexpositor.vercel.app)
 
-Discover the ultimate Bible study experience with MyExpositor! Your go-to resource for exploring the sacred scriptures just got a digital upgrade. We've transformed the renowned Jimmy Swaggart's Expositor's Bible into an immersive website, bringing you a powerful tool for diving deep into the Word.
+We've transformed the renowned Jimmy Swaggart's Expositor's Bible into an immersive website, bringing you a powerful tool for diving deep into the Word.
 
 🔍 **Easy Navigation**: Navigate through the Bible seamlessly with our intuitive alphabetical dropdown menu. Quickly find the books you're looking for, enhancing your study efficiency.
 

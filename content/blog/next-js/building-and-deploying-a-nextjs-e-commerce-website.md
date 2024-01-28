@@ -8,6 +8,7 @@ tags:
 images:
   - src: /photos/blog-images/nextjs-ecommerce.jpg
     alt: image alt attribute
+featured: true
 ---
 
 ## Building and Deploying a Next.js E-commerce Website: A Comprehensive 

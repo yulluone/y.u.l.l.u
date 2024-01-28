@@ -8,6 +8,7 @@ tags:
 images:
   - src: /photos/blog-images/seo-optimization.jpg
     alt: image alt attribute
+featured: true
 ---
 
 # Optimizing Your Website for Search Engines to Drive Traffic

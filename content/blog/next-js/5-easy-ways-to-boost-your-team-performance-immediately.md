@@ -9,6 +9,7 @@ tags:
 images:
   - src: /photos/blog-images/developer-team-collaboration.jpg
     alt: image alt attribute
+featured: true
 ---
 
 NextJs: 5 Easy Ways to Boost Your Team Performance Immediately

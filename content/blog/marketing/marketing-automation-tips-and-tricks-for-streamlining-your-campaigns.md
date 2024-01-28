@@ -8,7 +8,7 @@ tags:
 images:
   - src: /photos/blog-images/marketing-automation.jpg
     alt: image alt attribute
-featured: true
+featured: false
 ---
 
 ## Marketing Automation: Tips and Tricks for Streamlining Your Campaigns

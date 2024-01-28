@@ -8,6 +8,7 @@ tags:
 images:
   - src: /photos/blog-images/leverage-the-power-of-video.jpg
     alt: image alt attribute
+featured: false
 ---
 
 ## How to Leverage the Power of Video for Your Business
