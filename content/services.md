@@ -90,7 +90,5 @@ icon:
 ---
 
 <small>
-  Test the idea, test the plan, test the code and Test the product. Test, test, test then test some more.
-
-  - <strong>The motto is: Let's test it. </strong>
+  Test the idea, test the plan, test the code and test the solution. Test, test, test then test some more.
 </small>
