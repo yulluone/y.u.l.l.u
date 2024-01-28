@@ -29,7 +29,7 @@ In a world where the average attention span for an adult is 8.25 seconds, first 
 - number: Custom
   text: To Your Business Needs
 - number: Lifetime
-  text: Systems Support
+  text: Software Support 
 - number: SEO
   text: To Outrank Competitors
 ---
