@@ -16,7 +16,8 @@ images:
 
 ## <Typewriter>Software Engineer</Typewriter>
 
-<Sep size={6} />
+
+<Sep size={12} />
 
 In a world where the average attention span for an adult is 8.25 seconds, first impressions matter now more than ever. Introduce your business to the world with a custom yulluco website made to capture your audience within seconds of their visit.
 
@@ -103,6 +104,8 @@ collection:
 ### *Featured Articles*
 
 Featured articles about my thoughts and experiments with technology.
+
+---
 
 
 

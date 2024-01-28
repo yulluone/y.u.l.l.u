@@ -106,7 +106,14 @@ const Projects = ({ projects }) => (
   </>
 )
 
-const Layout = ({ main = {}, projects={}, articles = {}, cta = {}, achievements = [], skills }) => (
+const Layout = ({
+  main = {},
+  projects = {},
+  articles = {},
+  cta = {},
+  achievements = [],
+  skills,
+}) => (
   <div className="mx-auto my-auto">
     <div className="items-center py-10 md:p-10 lg:p-20">
       <div className="text-center">
@@ -118,27 +125,23 @@ const Layout = ({ main = {}, projects={}, articles = {}, cta = {}, achievements 
         <div className="prose prose-invert">
           <ContentRenderer source={cta} />
         </div>
-        <div className="hidden md:block">
+        <div className=" block">
           <Sep size={24} />
-					<Skills {...skills} />
-				
+          <Skills {...skills} />
         </div>
       </div>
-		</div>
-			<div className="bg-gradient-omega-900 py-10 md:p-10 lg:p-20">
-      <Projects projects={projects} />
     </div>
-    <div className="bg-gradient-omega-900 py-10 md:p-10 lg:p-20">
+    <div className="bg-gradient-omega-900 flex flex-col gap-5 p-2 py-10 md:gap-0 md:p-10 lg:p-20">
+      <Projects projects={projects} />
+      <Sep size={24} />
       <Articles articles={articles} />
-		</div>
-		<div className="items-center py-10 md:p-10 lg:p-20">
-			
-		<div className="prose prose-invert text-center">
-          <ContentRenderer source={cta} />
-</div>
-</div>
-
-	
+    </div>
+    <div className="bg-gradient-omega-900 py-10 md:p-10 lg:p-20"></div>
+    <div className="items-center py-10 md:p-10 lg:p-20">
+      <div className="prose prose-invert text-center">
+        <ContentRenderer source={cta} />
+      </div>
+    </div>
   </div>
 )
 
