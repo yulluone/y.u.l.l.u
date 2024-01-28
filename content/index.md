@@ -24,14 +24,14 @@ In a world where the average attention span for an adult is 8.25 seconds, first 
 
 
 ---achievements
-- number: Design
-  text: To Captivate Your Audience
+- number: A+ Design
+  text: Captivate Your Audience
 - number: Custom
   text: To Your Business Needs
-- number: Built
-  text: With Your Future	In Mind
-- number: Optimised
-  text: To Rank Above Your Competitors
+- number: Lifetime
+  text: Systems Support
+- number: SEO
+  text: To Outrank Competitors
 ---
 
 
