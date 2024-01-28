@@ -61,7 +61,7 @@ Its essential to me that this process is smooth and painless.
 
     - <strong>Identify the scope</strong>
     - <strong>Create a development roadmap</strong>
-    - <strong>Outline an implentation plan/strong>
+    - <strong>Outline an implentation plan</strong>
 
 </small>
 
