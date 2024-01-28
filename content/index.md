@@ -1,7 +1,7 @@
 ---
 layout: Home-2
 SEO:
-  title: Branding Strategist, Software Developer and Marketing Expert
+  title: Software Engineer & Business Solutions Architect
   description: Introduction to who I am and what I do
 ---
 
@@ -19,18 +19,16 @@ images:
 
 # *You Dream* <span>-</span> *I Build*
 
-Hi, I am a Software Developer and a Brand Strategist passionate about
-helping businesses and brands take envisioned shape and expand the right reach.
-I love building for the Web.
+In a world where the average attention span for an adult is 8.25 seconds, first impressions matter now more than ever. Introduce your business to the world with a custom yulluco website made to capture your audience within seconds of their visit.
 
 ```js {2-4} showLineNumbers
 const services = [
-  'Web Development'
-  'Branding Strategy'
-  'Digital Marketing'
+  'Current Systems Analysis',
+  'Business Branding Strategy',
+  'Application Design & Development'
 ]
-if (you_have_a_project) {
-   goto('/contact')
+if (you are ready to take you businees to the next level) {
+   goto('/contact') [Contact Me](/contact)
 }
 ```
 
