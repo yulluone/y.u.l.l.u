@@ -5,16 +5,9 @@
     "fields": [
       {
         "type": "text",
-        "name": "first-name",
-        "placeholder": "First name",
-        "autoComplete": "given-name",
-        "required": true
-      },
-      {
-        "type": "text",
-        "name": "last-name",
-        "placeholder": "Last name",
-        "autoComplete": "family-name",
+        "name": "Your Name",
+        "placeholder": "Your Name",
+        "autoComplete": "full-name",
         "required": true
       },
       {
@@ -26,22 +19,11 @@
         "required": true
       },
       {
-        "type": "text",
-        "name": "company",
-        "placeholder": "Company Name",
-        "autoComplete": "company"
-      },
-      {
-        "type": "text",
-        "name": "phone",
-        "placeholder": "Phone Number",
-        "autoComplete": "phone"
-      },
-      {
         "type": "select",
         "name": "country",
         "autoComplete": "country-name",
-        "defaultValue": "Select Country",
+								"placeholder": "Select Your Country",
+        "defaultValue": "Kenya",
         "options": [
     { "label": "Afghanistan", "value": "Afghanistan" },
     { "label": "Albania", "value": "Albania" },
@@ -251,11 +233,11 @@
       {
         "type": "checkbox",
         "name": "project-type[Website Development]",
-        "label": "Website Development"
+        "label": "Custom Website"
       },{
         "type": "checkbox",
         "name": "project-type[Marketing Strategy]",
-        "label": "B Evaluation"
+        "label": "Marketing"
       },
       {
         "type": "checkbox",
@@ -265,7 +247,7 @@
       {
         "type": "checkbox",
         "name": "project-type[UI Design]",
-        "label": "UI Design"
+        "label": "UI/UX Design"
       },
       {
         "type": "checkbox",
@@ -285,22 +267,10 @@
     "columns": 3,
     "fields": [
       {
-        "type": "radio",
+        "type": "text",
         "name": "budget",
-        "value": "Less than $1,000",
-        "label": "Less than $1,000"
-      },
-      {
-        "type": "radio",
-        "name": "budget",
-        "value": "$1,000 - $10,000",
-        "label": "$1,000 - $10,000"
-      },
-      {
-        "type": "radio",
-        "name": "budget",
-        "value": "More than $10,000",
-        "label": "More than $10,000"
+        "placeholder": "Your Budget",
+        "required": true
       }
     ]
   },

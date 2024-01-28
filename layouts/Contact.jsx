@@ -141,7 +141,7 @@ const Contact01 = ({ main = {} }) => {
                     className="w-full sm:w-1/3"
                     disabled={isSubmitting}
                   >
-                    Submit
+                    Let's Go!
                   </Button>
                 </div>
               </div>

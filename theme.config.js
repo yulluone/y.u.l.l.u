@@ -85,7 +85,7 @@ export const social = [
   // },
   {
     name: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/joshua-yullu-068042192/',
+    url: 'https://www.linkedin.com/in/joshuayullu/',
     Icon: IoLogoLinkedin,
   },
 ]
@@ -135,15 +135,15 @@ export const mdxConfig = {
 export const siteMetaData = {
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || process.env.VERCEL_URL || 'http://localhost:3000',
   authorName: 'Joshua Yullu',
-  siteName: 'Joshua Yullu',
-  defaultTitle: 'Joshua Yullu Personal Site',
-  titleTemplate: 'Joshua Yullu | %s',
+  siteName: 'Joshua Yullu | Software Engineer For Hire',
+  defaultTitle: 'Joshua Yullu | Software Engineer For Hire',
+  titleTemplate: 'Yullu | %s',
   description: 'A fun site for an serious developer.',
   email: 'yulluone@outlook.com',
   locale: 'en_US',
   twitter: {
     handle: '@yulluone',
-    site: '@yullu.me',
+    site: '@yulluco.com',
     cardType: 'summary_large_image',
   },
 }
