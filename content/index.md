@@ -6,7 +6,7 @@ seo:
 ---
 
 ---main
-name: Joshua Yullu
+name: jOShuA yuLLu 
 images:
   - src: /hero-2.png
     alt: my photo
@@ -14,7 +14,7 @@ images:
     alt: my photo
 ---
 
-## <Typewriter>Software Engineer</Typewriter>
+## <Typewriter>software engineer</Typewriter>
 
 
 <Sep size={12} />
@@ -24,14 +24,15 @@ In a world where the average attention span for an adult is 8.25 seconds, first 
 
 
 ---achievements
-- number: A+ Design
+- number: a+ designs
   text: Captivate Your Audience
-- number: Custom
+- number: custom
   text: To Your Business Needs
-- number: Lifetime
-  text: Software Support 
-- number: SEO
-  text: To Outrank Competitors
+- number: a+ seo
+  text: Outrank Competitors
+- number: a lifetime
+  text: Of Software Support 
+
 ---
 
 
@@ -45,7 +46,7 @@ In a world where the average attention span for an adult is 8.25 seconds, first 
 
 
 ---skills
-title: Arsenal
+title: arsenal
 list:
   - name: React
     icon:
@@ -83,7 +84,7 @@ collection:
       $eq: true
 ---
 
-### *Personal Projects*
+### *personal projects*
 
 Featured handcrafted projects that I am passionate about.
 
@@ -101,7 +102,7 @@ collection:
       $eq: true
 ---
 
-### *Featured Articles*
+### *featured articles*
 
 Featured articles about my thoughts and experiments with technology.
 
