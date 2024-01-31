@@ -66,6 +66,13 @@ list:
   - name: MongoDB
     icon:
       src: /icons/mongodb.svg
+  - name: sql
+    icon:
+      src: /icons/sql.svg
+  - name: firebase
+    icon:
+      src: /icons/firebase.svg
+
 cta:
 ---
 <Button href="/contact" size="sm">
