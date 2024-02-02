@@ -57,7 +57,7 @@ list:
 
 
 ---skills[0]
-title: User Interface & Experience
+title: User Interface & Experience Design
 list:
   - title: Stunning
     level: 
@@ -100,15 +100,15 @@ list:
 ---history[0]
 title: Employment
 list:
-  - name: Natural World Safaris Kenya.
+  - name: Natural World Safaris Kenya - Tour Operator - Nairobi
     description: IT & MARKETING EXPERT
-    date: July, 2023-Present
-  - name: WeDance
-    description: FullStack Developer
-    date: 2021-2023
-  - name: Ministry Of Education.
-    description: React Developer & Tech Support
-    date: 2021
+    date: July, 2023 - Present
+  - name: WeDance - Dance Platform - Amsterdam
+    description: Frontend Developer
+    date: Jan, 2023 - June, 2023
+  - name: Ministry Of Education - Nairobi.
+    description: IT Expert & Support
+    date: Jan, 2023 - June, 2023
 ---
 
 
