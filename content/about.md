@@ -49,26 +49,26 @@ Let's super-charge your business today!
 ---skills_header
 title: I Specialise in
 list:
-  - User Experience
+  - UI/UX Design
   - System Design & Development
-  - Problem Analysis
+  - Business Problem Analysis
 ---
 
 
 
 ---skills[0]
-title: User Experience
+title: User Interface & Experience
 list:
-  - title: Intuitive Design
-    level: 5
+  - title: Stunning
+    level: 
     icon:
       src: 
-  - title: Responsiveness
-    level: 5
+  - title: Resposive
+    level: 
     icon:
       src: 
-  - title: UI Speed
-    level: 5
+  - title: Intuitive
+    level: 
     icon:
       src: 
 ---
@@ -81,16 +81,16 @@ list:
 ########################################
 title: System Design & Development
 list:
-  - title: Scalability
-    level: 5
+  - title: Scalable
+    level: 
     icon:
       src: 
-  - title: Reliability
-    level: 5
+  - title: Reliable
+    level: 
     icon:
       src: 
-  - title: Security
-    level: 5
+  - title: Secure
+    level: 
     icon:
       src: 
 ---

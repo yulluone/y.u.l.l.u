@@ -35,8 +35,15 @@ const Skill = ({ title, icon, level }) => (
     {icon && (
       <Icon width={28} height={28} {...icon} className="mr-3 h-7 w-7 fill-current text-omega-500" />
     )}
+    <span
+      key={`${title}`}
+      className={classNames(
+        'mx-2 inline-block h-3.5 w-3.5',
+        'bg-gradient-to-tr from-accent-700 to-accent'
+      )}
+    />
     <small className="font-bold">{title}</small>
-    <div className="ml-auto space-x-px">
+    {/* <div className="ml-auto space-x-px">
       {Array(5)
         .fill(null)
         .map((_, k) => (
@@ -48,7 +55,7 @@ const Skill = ({ title, icon, level }) => (
             )}
           />
         ))}
-    </div>
+    </div> */}
   </div>
 )
 
