@@ -104,7 +104,7 @@ list:
     description: IT & MARKETING EXPERT
     date: July, 2023 - Present
   - name: WeDance - Dance Platform - Amsterdam
-    description: Frontend Developer
+    description: Frontend Developer(Remote)
     date: Jan, 2023 - June, 2023
   - name: Ministry Of Education - Nairobi.
     description: IT Expert & Support
